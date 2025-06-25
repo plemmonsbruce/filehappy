@@ -1,5 +1,12 @@
 # Multi-Workflow Data Transformation Platform
 # Enhanced Streamlit Application Framework
+import sys
+import os
+
+# Add project root to Python path
+current_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.dirname(current_dir)  # Parent of current_dir (streamlit_apps)
+sys.path.insert(0, root_dir)
 
 import streamlit as st
 import pandas as pd
