@@ -4,7 +4,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import date
-from spendable_workflow_script import process_excel_workflow
+from workflows.spendable.excel_workflow_script import process_excel_workflow
 
 # Import placeholder modules for future workflows (you'll create these)
 # from cola_workflow import process_cola_workflow
